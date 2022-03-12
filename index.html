@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="v-not navigation">
+            <li id="brand">
+                <img id="logo" src="logo.png" alt="#">
+                <span>
+                    Spotify
+                </span>
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+        <div id="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Latest Bollywood Hits</h1>
+        <div class="songlist">
+            <div class="songItem">
+                <img src="/covers/1.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="1" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/2.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="2" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/3.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="3" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/4.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="4" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/5.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="5" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/6.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="6" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/7.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+                    <span><i id="7" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/8.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+                    <span><i id="8" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/9.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+
+                    <span><i id="9" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+                </div>
+
+            </div>
+            <div class="songItem">
+                <img src="/covers/10.jpg" alt="">
+                <span class="songTitle"></span>
+                <div>
+                    <span><i id="10" class="songlistPlay fa-solid  fa-circle-play"></i></span>
+                    <span class="duration"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="songName">
+            <div class="res">
+                <div class="upper">
+                    <img src="playing.gif" class="gif" alt="">
+                    <img src="" alt="" id="info">
+                    <span id="songInfo">Song Info</span>
+                </div>
+            </div>
+            <div id="seek">
+                <input type="range" name="songPosition" id="songPosition" min="0" max="100" value="0">
+                <span id="awaaz"><span id="loop">Loop</span>
+            </div>
+            <div class="played">
+                <span id="time"></span>
+                <div class="mute">
+                    <i class=" vol fa-solid fa-volume-high"></i>
+                    <input type="range" name="volume" id="volume" min="0" max="100">
+                </div>
+                <span id="end"></span>
+            </div>
+            <div class="songControlBtns">
+                <i class=" previous fa-solid fa-3x fa-backward-step"></i>
+                <i id="songPlay" class=" fa-solid fa-3x fa-circle-play"></i>
+                <i class=" next fa-solid fa-3x fa-forward-step"></i>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/53c513330b.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Playfair+Display&family=Song+Myung&family=Ubuntu+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+
+   
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+
+
+.navbar ul{
+    display: flex;
+    
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 100%;
+    overflow: hidden;
+   
+    
+   
+
+}
+body{
+    background-color:rgb(255, 197, 125);
+    /* overflow: hidden; */
+}
+#brand{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+#brand img{
+    width: 50px;
+    border-radius: 50px;
+
+}
+.navbar ul li{
+    list-style: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin: 0px 10px;
+
+}
+
+.container{
+    width: 95%;
+    background: url('bg.jpg') center center;
+    background-size: auto;
+    height:auto;
+
+    
+    color: black;
+    margin:10px auto;
+    margin-bottom: 0;
+    border-radius: 15px;
+    font-family: 'Song Myung', serif;
+    font-size: 20px;
+   
+    
+    
+  
+}
+.songlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container h1{
+    text-align: center;
+    color: white;
+}
+.songItem img{
+    width: 60px;
+    border-radius: 100px;
+    margin:  5px;
+    transition: all ease 1.5s;
+ 
+    
+  
+    
+    
+}
+.songlistPlay{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.songTitle{
+    margin: 0 10px;
+}
+.songItem{
+    background-color:rgb(236, 209, 176) ;
+    width: 40%;
+    margin: 8px 12px;
+    display: flex;
+    align-items: center;
+    font-size: inherit;
+    font-weight: bolder;
+    border-radius: 15px;
+    min-width: 240px;
+    height: inherit;
+    
+    
+
+}
+
+
+
+.footer{
+    /* display: flex; */
+    
+    /* border: 2px solid black; */
+    overflow: hidden;
+    /* background-color: yellow; */
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: 'Song Myung', serif;
+    font-size: 18px;
+    height:382px;
+    padding-top: 115px;
+    margin-top: 19px;
+    margin-bottom: -50px;
+  
+    
+
+
+   
+
+   
+   
+
+    
+    
+  
+    
+}
+#songPosition{
+    width: 90%;
+    margin: 5px 0;
+    
+    cursor: pointer;
+    
+}
+.songControlBtns{ 
+    /* border: 2px solid yellow; */
+   /* /* position: relative; */
+   /* top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+    /* border: 2px solid wheat; */
+   
+}
+.songControlBtns i{
+    margin: 0 2px;
+    cursor: pointer;
+}
+.songName{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    font-size: 18px;
+    padding: 0px 0;
+  
+    /* width: 90%; */
+ 
+    /* background-color: white; */
+    
+
+
+}
+.upper{
+    display: flex;
+
+   
+    /* border: 2px solid red; */
+    align-items: center;
+}
+.gif{
+    width: 50px;
+    transition: all 0.5s ease-in-out;
+    margin:  5px;
+    opacity: 0;
+
+}
+#seek{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+#volume{
+    cursor: pointer;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 10px;
+    
+}
+#songInfo{
+    margin: 0 5px;
+}
+#time{
+    margin-left:  15px;
+}
+.vol{
+    cursor: pointer;
+    /* margin: 5px 5px; */
+    
+}
+#awaaz{
+    margin: 2px 5px; 
+    cursor: pointer;
+}
+.mute{
+  margin-left: -55%;
+}
+/* .response{
+    display: flex;
+    align-items: center;
+} */
+.res{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding-left: 5%;
+     ;
+    
+    
+}
+.songName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size:25px ;
+}
+.played{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+
+@media  only screen and (max-width:1000px) {
+    .songItem div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .v-not{
+        /* background-color: black; */
+        opacity: 0;
+        height: 60px;
+        
+    }
+    .navbar{
+        background-color: black;
+    }
+    #brand{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #burger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        width: 40px;
+        right: 2.5%;
+        top: 15.6%;
+        /* border: 0.5px solid white; */
+    
+    }
+    .line{
+        height: 2px;
+        width: 90%;
+       background-color: white;
+       margin: 3px;
+        /* border: 2px solid white; */
+    }
+   
+    #volume{
+        min-width: 10%;
+        margin: 0 0px;
+    }
+    .res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    
+      
+    }
+    .mute{
+        margin-left: -5%;
+      }
+    .songName{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        font-size: 16px;
+    }
+    .footer{
+        
+        overflow: hidden;
+    }
+    #time{
+        margin: 0 0px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:600px) {
+    .songName{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
